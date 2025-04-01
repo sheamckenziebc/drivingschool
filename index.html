@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Ready Driving School</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Road Ready</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Courses</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#booking" class="book-btn">Book Now</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Learn to Drive with Confidence</h1>
+                <p>Professional driving instruction with certified instructors</p>
+                <a href="#booking" class="cta-button">Book Your First Lesson</a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <h2 class="section-title">Our Driving Courses</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Beginner Courses</h3>
+                    <p>Perfect for first-time drivers. Learn essential skills and build confidence behind the wheel.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <h3>Highway Driving</h3>
+                    <p>Master highway merging, lane changes, and maintaining safe distances at higher speeds.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <h3>Test Preparation</h3>
+                    <p>Focused lessons to prepare you for your driving test with practice on test routes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Defensive Driving</h3>
+                    <p>Learn advanced techniques to anticipate hazards and avoid accidents.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="images/instructor.jpg" alt="Driving Instructor">
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">About Road Ready</h2>
+                    <p>With over 15 years of experience, Road Ready Driving School has helped thousands of students become confident, skilled drivers. Our certified instructors are patient, knowledgeable, and committed to your success.</p>
+                    <p>We offer flexible scheduling, personalized instruction, and modern vehicles equipped with dual controls for safety. Our high pass rate speaks to our quality of instruction.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>15+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5000+</h3>
+                            <p>Successful Students</p>
+                        </div>
+                        <div class="stat">
+                            <h3>95%</h3>
+                            <p>Pass Rate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <h2 class="section-title">What Our Students Say</h2>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>My instructor was patient and made me feel comfortable from the first lesson. I passed my test on the first try!</p>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="author">
+                        <img src="images/testimonial1.jpg" alt="Student 1">
+                        <h4>Sarah Johnson</h4>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>As an anxious driver, I needed extra support. Road Ready's instructors were understanding and helped me build confidence.</p>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="author">
+                        <img src="images/testimonial2.jpg" alt="Student 2">
+                        <h4>Michael Chen</h4>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>The defensive driving course was excellent. I learned skills that have already helped me avoid accidents on the road.</p>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="author">
+                        <img src="images/testimonial3.jpg" alt="Student 3">
+                        <h4>Emily Rodriguez</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Booking Section -->
+        <section id="booking" class="booking">
+            <h2 class="section-title">Book Your Lesson</h2>
+            <p class="booking-text">Select a convenient time for your driving lesson. Our scheduling system allows you to choose your preferred instructor and lesson type.</p>
+            <div class="calendly-container">
+                <!-- Calendly inline widget begin -->
+                <div class="calendly-inline-widget" data-url="https://calendly.com/roadready/driving-lesson" style="min-width:320px;height:700px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                <!-- Calendly inline widget end -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Driving Avenue, Cityville, ST 12345</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(555) 123-4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@roadreadydriving.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Mon-Fri: 8am-8pm, Sat: 9am-5pm</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Road Ready</h2>
+                <p>Your journey to confident driving starts here</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Courses</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#booking">Book Now</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to our newsletter for driving tips and special offers</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Road Ready Driving School. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
